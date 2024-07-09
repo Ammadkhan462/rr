@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const app = express();
 app.use(bodyParser.json());
 
+// Replace with the path to your service account key
 const serviceAccount = require('./serviceAccountKey.json');
 
 admin.initializeApp({
